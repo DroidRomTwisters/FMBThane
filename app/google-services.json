@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "726199469023",
+    "firebase_url": "https://fmbapp-5ad81.firebaseio.com",
+    "project_id": "fmbapp-5ad81",
+    "storage_bucket": "fmbapp-5ad81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726199469023:android:fa82f915b33680408fba6a",
+        "android_client_info": {
+          "package_name": "com.example.fmbthane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726199469023-mvbc5k0a5i305t4r9p8jibaaqu53ose1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG-KmlOlVqpJPqZcBGyRXS7bUir2365Hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726199469023-mvbc5k0a5i305t4r9p8jibaaqu53ose1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

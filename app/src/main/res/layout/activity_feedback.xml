@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+    android:background="@drawable/bg"
+    android:onClick="hideKeyboard">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv"
+        android:src="@drawable/fmbwithoutphoto"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/et1"
+        android:hint="Enter Your Valueable Feedback"
+        android:inputType="textMultiLine"
+        android:imeOptions="actionGo"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:text="SUBMIT"
+        android:background="@drawable/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et1"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

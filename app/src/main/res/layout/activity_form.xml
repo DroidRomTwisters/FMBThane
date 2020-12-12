@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form"
+    android:background="@drawable/bg"
+    android:onClick="hideKeyboard">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv"
+        android:src="@drawable/fmbwithoutphoto"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="ITS Number"
+        android:inputType="number"
+        android:maxLength="8"
+        android:numeric="integer"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/et1"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:inputType="number"
+        android:hint="Thaali Number"
+        android:maxLength="8"
+        android:numeric="integer"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/et2"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et4"
+        android:inputType="text"
+        android:hint="Address"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/et3"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et5"
+        android:inputType="date"
+        android:hint="Date to Stop Thaali From:-"
+        android:layout_marginTop="15dp"
+        android:numeric="integer"
+        android:layout_below="@+id/et4"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et6"
+        android:inputType="date"
+        android:hint="Date to Start Thaali From:-"
+        android:numeric="integer"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/et5"
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionGo"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:layout_below="@id/et6"
+        android:id="@+id/bt"
+        android:text="SUBMIT"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
